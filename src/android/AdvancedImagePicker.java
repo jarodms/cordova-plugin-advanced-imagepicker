@@ -332,9 +332,9 @@ public class AdvancedImagePicker extends CordovaPlugin {
     private String encodeImage(Bitmap bm, boolean asJpeg) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         if (asJpeg) {
-            bm.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            bm.compress(Bitmap.CompressFormat.JPEG, 50, baos);
         } else {
-            bm.compress(Bitmap.CompressFormat.PNG, 100, baos);
+            bm.compress(Bitmap.CompressFormat.PNG, 50, baos);
         }
         byte[] b = baos.toByteArray();
         return Base64.encodeToString(b, Base64.DEFAULT);

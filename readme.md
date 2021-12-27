@@ -44,6 +44,10 @@ Please consider donating if you're using this plugin in an app that makes you mo
 
 # Install
 
+```
+ionic cordova plugin add https://github.com/jarodms/cordova-plugin-advanced-imagepicker --save --variable ANDROID_IMAGE_PICKER_VERSION="1.2.7"
+```
+
 ## Requirements
 
 - **cordova** `>= 9.0.0`
