@@ -21,8 +21,8 @@
 
         <source-file src="src/android/AdvancedImagePicker.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
         <source-file src="src/android/AdvancedImagePickerErrorCodes.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
-        <source-file src="src/android/ExifHelper.java" target-dir="src/de/einfachhans/ExifHelper"/>
-        <source-file src="src/android/FileHelper.java" target-dir="src/de/einfachhans/FileHelper"/>
+        <source-file src="src/android/ExifHelper.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
+        <source-file src="src/android/FileHelper.java" target-dir="src/de/einfachhans/AdvancedImagePicker"/>
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
 
         <preference name="ANDROID_IMAGE_PICKER_VERSION" default="1.2.7" />
