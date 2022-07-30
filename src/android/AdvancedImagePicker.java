@@ -9,7 +9,7 @@ import android.util.Base64;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
-import org.apache.cordova.camera.FileHelper;
+import de.einfachhans.AdvancedImagePicker.FileHelper;
 import org.apache.cordova.LOG;
 
 import org.json.JSONArray;
